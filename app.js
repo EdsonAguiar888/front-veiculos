@@ -8,8 +8,8 @@
 // Este arquivo roda no navegador.
 // O frontend conversa com o backend somente através da API HTTP.
 
-const API_URL = "http://localhost:3000/veiculo";
-
+const API_URL = "https://backend-veiculos-api.onrender.com/";
+//const API_URL = "http://localhost:3000/veiculo";
 
 // ========================================
 // ELEMENTOS DO HTML

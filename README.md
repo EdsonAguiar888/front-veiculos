@@ -1,4 +1,4 @@
-# Frontend do CRUD de Usuários
+# Frontend do CRUD de Veiculos
 
 Frontend simples em HTML, CSS e JavaScript que utiliza todas as rotas do backend.
 
@@ -21,7 +21,7 @@ Não abra o arquivo `index.html` diretamente. O servidor HTTP é necessário par
 O endereço está definido no início do arquivo `app.js`:
 
 ```javascript
-const API_URL = "http://localhost:3000/usuarios";
+const API_URL = "http://localhost:3000/veiculo";
 ```
 
 Altere esse valor caso o backend seja executado em outro endereço ou porta.
@@ -30,8 +30,8 @@ Altere esse valor caso o backend seja executado em outro endereço ou porta.
 
 | Ação | Método | Rota |
 |---|---|---|
-| Listar usuários | GET | `/usuarios` |
-| Buscar por ID | GET | `/usuarios/:id` |
-| Cadastrar | POST | `/usuarios` |
-| Atualizar | PUT | `/usuarios/:id` |
-| Excluir | DELETE | `/usuarios/:id` |
+| Listar veiculos | GET | `/veiculo` |
+| Buscar por ID | GET | `/veiculo/:id` |
+| Cadastrar | POST | `/veiculo` |
+| Atualizar | PUT | `/veiculo/:id` |
+| Excluir | DELETE | `/veiculo/:id` |
